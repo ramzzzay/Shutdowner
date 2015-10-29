@@ -25,6 +25,7 @@ namespace CoolShop
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/css/bootstrap.css",
+                      "~/Content/css/bootstrap-theme.css",
                       "~/Content/css/site.css"));
         }
     }
