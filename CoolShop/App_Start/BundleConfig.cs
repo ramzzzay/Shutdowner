@@ -9,7 +9,9 @@ namespace CoolShop
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                 "~/Scripts/jquery-{version}.js",
-                "~/Scripts/Parallax.js"
+                "~/Scripts/Parallax.js",
+                "~/Scripts/jquery.fly_sidemenu.js",
+                "~/Scripts/jquery.multilevelpushmenu.js"
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
@@ -28,6 +30,8 @@ namespace CoolShop
                 "~/Content/css/bootstrap.css",
                 "~/Content/css/bootstrap-theme.css",
                 "~/Content/css/font-awesome.css",
+                "~/Content/css/fly_sidemenu.css",
+                "~/Content/css/jquery.multilevelpushmenu.css",
                 "~/Content/css/site.css"));
         }
     }

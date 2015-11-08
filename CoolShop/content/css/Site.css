@@ -1,9 +1,11 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    /*padding-top: 50px;
+    padding-bottom: 20px;*/
+    padding: 0;
 }
 
 /* Set padding to keep content from hitting the edges */
+
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
@@ -12,64 +14,82 @@
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
-.dl-horizontal dt {
-    white-space: normal;
-}
+
+.dl-horizontal dt { white-space: normal; }
 
 /* Set width on the form input elements since they're 100% wide by default */
+
 input,
 select,
-textarea {
-    max-width: 280px;
-}
+textarea { max-width: 280px; }
 
-#bOne {
-    background-image: url('images/background.jpg');
-}
+#bOne { background-image: url('images/background.jpg'); }
 
 #bTwo {
     background-image: url('images/background4.jpg');
     background-position: 100% 100%;
 }
 
-#bThree {
-    background-image: url('images/background3.jpg');
-}
+#bThree { background-image: url('images/background3.jpg'); }
 
 .background {
-    margin-bottom: 20px;
-    padding: 9em 0px 2em;
+    -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    background-attachment: fixed;
     background-color: #141D27;
     
     background-size: cover;
-    background-attachment: fixed;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
     color: #FFF;
+    margin-bottom: 20px;
+    padding: 9em 0px 2em;
     text-align: center;
-    -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
 footer {
-    padding: 30px;
     background: gray;
+    padding: 30px;
 }
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
 blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C" "\201D" "\2018" "\2019";
 }
+
 blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
 }
-blockquote p {
-  display: inline;
+
+blockquote p { display: inline; }
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+a { text-decoration: none; }
+
+a:focus, a:hover {
+    text-decoration: none;
 }
+
+.fsm-sidebar { position: fixed; }
+
+.fsm-button {
+    color: red;
+    font-size: 50px;
+    line-height: 100%;
+    text-decoration: none;
+    top: 36px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+

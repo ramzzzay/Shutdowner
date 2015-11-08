@@ -214,8 +214,10 @@
     <Content Include="content\css\bootstrap-theme.min.css" />
     <Content Include="content\css\bootstrap.css" />
     <Content Include="content\css\bootstrap.min.css" />
+    <Content Include="content\css\fly_sidemenu.css" />
     <Content Include="content\css\font-awesome.css" />
     <Content Include="content\css\font-awesome.min.css" />
+    <Content Include="content\css\jquery.multilevelpushmenu.css" />
     <Content Include="content\images\background2.jpg" />
     <Content Include="content\images\background3.jpg" />
     <Content Include="content\images\background.jpg" />
@@ -244,6 +246,10 @@
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.fly_sidemenu.js" />
+    <Content Include="Scripts\jquery.fly_sidemenu.min.js" />
+    <Content Include="Scripts\jquery.multilevelpushmenu.js" />
+    <Content Include="Scripts\jquery.multilevelpushmenu.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
