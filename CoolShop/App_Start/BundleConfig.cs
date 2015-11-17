@@ -32,6 +32,7 @@ namespace CoolShop
             bundles.Add(new StyleBundle("~/Content/styles").Include(
                 "~/Content/css/bootstrap.css",
                 "~/Content/css/bootstrap-theme.css",
+                "~/Content/css/bootstrap_themes/bootstrap-flat.css",
                 "~/Content/css/font-awesome.css",
                 "~/Content/css/fly_sidemenu.css",
                 "~/Content/css/jquery.multilevelpushmenu.css",

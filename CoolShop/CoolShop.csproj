@@ -279,6 +279,10 @@
     <None Include="ClearScript.V8\v8-x64.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <Content Include="content\css\bootstrap_themes\bootstrap-flat-extras.css" />
+    <Content Include="content\css\bootstrap_themes\bootstrap-flat-extras.min.css" />
+    <Content Include="content\css\bootstrap_themes\bootstrap-flat.css" />
+    <Content Include="content\css\bootstrap_themes\bootstrap-flat.min.css" />
     <Content Include="content\css\bootstrap-theme.css" />
     <Content Include="content\css\bootstrap-theme.min.css" />
     <Content Include="content\css\bootstrap.css" />
