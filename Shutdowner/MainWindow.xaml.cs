@@ -1,28 +1,36 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Shutdowner
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    ///     Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+            OkBtn.Click += (sender, args) =>
+            {
+                var timer = TimeSpan.FromHours(Convert.ToInt32(Time.Text));
+                var shutdown = new ProcessStartInfo("shutdown.exe", $"-s -t {timer.TotalSeconds}")
+                {
+                    CreateNoWindow = true,
+                    UseShellExecute = false
+                };
+                Process.Start(shutdown);
+            };
+            CancelBtn.Click += (sender, args) =>
+            {
+                var shutdown = new ProcessStartInfo("shutdown.exe", "-a")
+                {
+                    CreateNoWindow = true,
+                    UseShellExecute = false
+                };
+                Process.Start(shutdown);
+            };
         }
     }
 }
