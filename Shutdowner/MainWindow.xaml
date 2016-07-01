@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="123.726" Width="207.325">
     <Grid>
-        <Button x:Name="OkBtn" Content="Ok" HorizontalAlignment="Left" Margin="12,57,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBox x:Name="Time" PreviewTextInput="OnContentChanged" HorizontalAlignment="Left" Height="23" Margin="40,16,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="OkBtn" Content="Ok" HorizontalAlignment="Left" Margin="12,57,0,0" VerticalAlignment="Top" Width="75" />
+        <TextBox x:Name="TimeInput" PreviewTextInput="OnContentChanged" HorizontalAlignment="Left" Height="23" Margin="40,16,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="CancelBtn" Content="Cancel" HorizontalAlignment="Left" Margin="109,57,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>

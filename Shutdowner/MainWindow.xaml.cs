@@ -14,7 +14,7 @@ namespace Shutdowner
             InitializeComponent();
             OkBtn.Click += (sender, args) =>
             {
-                var timer = TimeSpan.FromHours(Convert.ToInt32(Time.Text));
+                var timer = TimeSpan.FromHours(Convert.ToInt32(TimeInput.Text));
                 var shutdown = new ProcessStartInfo("shutdown.exe", $"-s -t {timer.TotalSeconds}")
                 {
                     CreateNoWindow = true,
