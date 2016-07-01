@@ -12,7 +12,6 @@ namespace Shutdowner
         public MainWindow()
         {
             InitializeComponent();
-            TimeInput.GotFocus += (sender, args) => TimeInput.Text = "" ;
             OkBtn.Click += (sender, args) =>
             {
                 var timer = TimeSpan.FromHours(Convert.ToInt32(TimeInput.Text));
