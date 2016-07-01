@@ -1,15 +1,17 @@
-﻿<Window x:Class="Shutdowner.MainWindow"
+﻿<Controls:MetroWindow x:Name="Shutdowner" x:Class="Shutdowner.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns:local="clr-namespace:Shutdowner"
         mc:Ignorable="d"
-        Title="MainWindow" Height="123.726" Width="207.325" ResizeMode="NoResize">
+        Title="Shutdowner" Height="146.726" Width="306.825" ResizeMode="NoResize">
     <Grid>
-        <Button x:Name="OkBtn" Content="Ok" HorizontalAlignment="Left" Margin="12,57,0,0" VerticalAlignment="Top" Width="75" />
-        <TextBox x:Name="TimeInput" PreviewTextInput="OnContentChanged" HorizontalAlignment="Left" Height="23" Margin="40,16,0,0" TextWrapping="Wrap" Text="enter the hours" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="CancelBtn" Content="Cancel" HorizontalAlignment="Left" Margin="109,57,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="OkBtn" Content="Ok" HorizontalAlignment="Left" Margin="69,57,0,0" VerticalAlignment="Top" Width="75" />
+        <TextBox x:Name="TimeInput" PreviewTextInput="OnContentChanged" HorizontalAlignment="Left" Height="23" Margin="97,16,0,0" TextWrapping="Wrap" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="enter the hours" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="CancelBtn" Content="Cancel" HorizontalAlignment="Left" Margin="166,57,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="Footer" Content="Developed and Disigned by Anton Burkin@RAMZAY" HorizontalAlignment="Left" Margin="12,87,0,0" VerticalAlignment="Top"/>
 
     </Grid>
-</Window>
+</Controls:MetroWindow>
