@@ -8,10 +8,10 @@
         mc:Ignorable="d"
         Title="Shutdowner" Height="146.726" Width="306.825" ResizeMode="NoResize">
     <Grid>
-        <Button x:Name="OkBtn" Content="Start" HorizontalAlignment="Left" Margin="69,57,0,0" VerticalAlignment="Top" Width="75" />
-        <TextBox x:Name="TimeInput" PreviewTextInput="OnContentChanged" HorizontalAlignment="Left" Height="23" Margin="97,16,0,0" TextWrapping="Wrap" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="enter the hours" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="CancelBtn" Content="Cancel" HorizontalAlignment="Left" Margin="166,57,0,0" VerticalAlignment="Top" Width="75"/>
-        <Label x:Name="Footer" Content="Developed and Disigned by Anton Burkin@RAMZAY" HorizontalAlignment="Left" Margin="12,87,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="OkBtn" Content="Start" HorizontalAlignment="Left" Margin="67,57,0,0" VerticalAlignment="Top" Width="75" />
+        <TextBox x:Name="TimeInput" PreviewTextInput="OnContentChanged" HorizontalAlignment="Left" Height="23" Margin="95,16,0,0" TextWrapping="Wrap" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="enter the hours" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="CancelBtn" Content="Cancel" HorizontalAlignment="Left" Margin="164,57,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="Footer" Content="Developed and Disigned by Anton Burkin@RAMZAY" HorizontalAlignment="Left" Margin="18,87,0,0" VerticalAlignment="Top" Width="266" FontSize="11"/>
 
     </Grid>
 </Controls:MetroWindow>
