@@ -8,9 +8,9 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Shutdowner")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("One of many timers to shutdown you PC")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("The Ramzay")]
 [assembly: AssemblyProduct("Shutdowner")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
