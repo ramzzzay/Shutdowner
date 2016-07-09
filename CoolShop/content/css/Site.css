@@ -23,14 +23,14 @@ input,
 select,
 textarea { max-width: 280px; }
 
-#bOne { background-image: url('images/background.jpg'); }
+#bOne { background-image: url('../images/background.jpg'); }
 
 #bTwo {
-    background-image: url('images/background4.jpg');
+    background-image: url('../images/background4.jpg');
     background-position: 100% 100%;
 }
 
-#bThree { background-image: url('images/background3.jpg'); }
+#bThree { background-image: url('../images/background3.jpg'); }
 
 .background {
     -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
